@@ -1,12 +1,14 @@
-#include<stdio.h>
+#include <stdio.h>
+
+
 
 /**
  *
- *  * main- Entry point
+ *  * main - entry point for the program
  *
  *   *
  *
- *    * Return: Always 0 (Success)
+ *    * Return: Displays a message to the terminal.
  *
  *     */
 
