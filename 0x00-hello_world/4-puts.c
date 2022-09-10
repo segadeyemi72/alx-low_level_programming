@@ -1,23 +1,12 @@
-#include <stdio.h>
-
-
+#include<stdio.h>
 
 /**
+ * main - entry point for program
  *
- *  * main - entry point for the program
- *
- *   *
- *
- *    * Return: Displays a message to the terminal.
- *
- *     */
-
+ * Return: Always 0 (Success)
+ */
 int main(void)
-
 {
-
-		puts("\"Programming is like building a multilingual puzzle");
-
-			return (0);
-
-}
+	put("\"Programming is like building a multiligual puzzle");
+  	return (0);
+}	
