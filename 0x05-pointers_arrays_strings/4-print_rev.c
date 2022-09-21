@@ -4,18 +4,19 @@ i#include "main.h"
  * @s: params
  */
 
-void print_rev(char *s)
-{
-	int i = 0;
-	int j;
+ void print_rev(char *s)
+ {
+	int fcounter = 0;
+	int i, n;
 
-	while (s[i] != '\0')
+	for (i = 0; s[i] != '\0'; i++)
 	{
-		i++;
+		fcounter++;
 	}
-	for (j = i - 1; j >= 0; j--)
+	
+	for (n = (fcounter - 1); n >= 0; n--)
 	{
-		_putchar(s[j]);
+		_putchar(s[n]);
 	}
 	_putchar('\n');
-}
+ }
